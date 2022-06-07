@@ -1,0 +1,39 @@
+<article class="<?php echo $width; ?>">
+
+  <section class="calculator-box">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Enter Amount</label>
+        <input id="enter-amount" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">(Number Only.)</small>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-6">
+          <label for="exampleInputPassword1">Your Base Commission</label>
+          <div id="display-result" class="card p-5">Result goes here...</div>
+        </div>
+        <div class="col-md-6">
+          <label for="exampleInputPassword1">Your Base Commission</label>
+          <div id="display-result" class="card p-5">Result goes here...</div>
+        </div>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label mr-5" for="exampleCheck1">Check me out</label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label  mr-5" for="exampleCheck1">Check me out</label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label  mr-5" for="exampleCheck1">Check me out</label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label  mr-5" for="exampleCheck1">Check me out</label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label  mr-5" for="exampleCheck1">Check me out</label>
+
+
+      </div>
+      <button id="calculate-btn" type="button" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+</article>
