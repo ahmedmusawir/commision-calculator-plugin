@@ -21,7 +21,7 @@
 
    array(
 
-    'width' => 'w-50',
+    'width' => 'w-75',
     'align' => 'center'
 
    ),
